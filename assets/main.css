@@ -1,0 +1,115 @@
+html {
+  font-size: 62.5%;
+}
+
+body, h1, h2 {
+  font-size: 1rem;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+button, ul {
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+  justify-items: center;
+  align-items: center;
+  height: 5rem;
+  background: #1C1C1C;
+  color: white;
+}
+.mobile-nav_back-btn {
+  justify-self: start;
+  margin-left: 1rem;
+  padding: 0.3rem 0.8rem;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mobile-nav_back-btn > span {
+  font-size: 1.6rem;
+}
+.mobile-nav_logo {
+  height: 4rem;
+  justify-self: end;
+  margin-right: 1rem;
+}
+.mobile-nav_title {
+  font-size: 1.8rem;
+}
+
+.mobile-main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, max-content);
+  row-gap: 1.5rem;
+  background: url("./images/background.png") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+.mobile-main_address-box {
+  font-style: normal;
+  color: #7E9BB5;
+}
+.mobile-main_address-section {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1.6rem;
+}
+.mobile-main_address-tel {
+  color: white;
+  text-decoration: underline;
+}
+.mobile-main_address-title {
+  font-size: 1.7rem;
+}
+.mobile-main_image {
+  margin: 0 auto;
+  margin-top: 2rem;
+  border: 0.3rem solid white;
+  width: 80%;
+  object-fit: contain;
+  box-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.6);
+}
+.mobile-main_options {
+  margin: 0 auto;
+  list-style: none;
+  width: 80%;
+}
+.mobile-main_options li {
+  background: #E7EBED;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #E7EBED, #C1CFDB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E7EBED, #C1CFDB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0.5rem;
+}
+.mobile-main_options li a {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #031628;
+}
+.mobile-main_options li:first-of-type {
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+.mobile-main_options li:last-of-type {
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+/*# sourceMappingURL=main.css.map */
