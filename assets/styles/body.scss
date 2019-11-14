@@ -16,7 +16,7 @@
 
         &-section {
             margin: 0 auto;
-            width: 80%;
+            width: 90%;
             font-size: 1.6rem;
         }
 
@@ -33,7 +33,7 @@
         margin: 0 auto;
         margin-top: 2rem;
         border: .3rem solid white;
-        width: 80%;
+        width: 90%;
         object-fit: contain;
         box-shadow: .2rem .4rem .4rem rgba($color: #000000, $alpha: .6);
     }
@@ -41,7 +41,7 @@
     &_options {
         margin: 0 auto;
         list-style: none;
-        width: 80%;
+        width: 90%;
         & li {
             background: #E7EBED; /* fallback for old browsers */
             background: -webkit-linear-gradient(to bottom, #E7EBED, #C1CFDB);  /* Chrome 10-25, Safari 5.1-6 */
