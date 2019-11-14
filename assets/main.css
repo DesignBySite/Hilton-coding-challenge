@@ -49,6 +49,11 @@ button, ul {
 .mobile-nav_title {
   font-size: 1.8rem;
 }
+@media (max-width: 330px) {
+  .mobile-nav_title {
+    font-size: 1.4rem;
+  }
+}
 
 .mobile-main {
   height: 100vh;
@@ -75,6 +80,11 @@ button, ul {
 }
 .mobile-main_address-title {
   font-size: 1.7rem;
+}
+@media screen and (max-width: 320px) {
+  .mobile-main_address-title {
+    font-size: 1.4rem;
+  }
 }
 .mobile-main_image {
   margin: 0 auto;
